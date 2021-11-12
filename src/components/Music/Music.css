@@ -1,0 +1,10 @@
+.m{
+    position: absolute;
+}
+
+button {
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+}
