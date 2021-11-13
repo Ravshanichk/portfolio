@@ -55,7 +55,7 @@ const Contact = () => {
                         <input style={{background:darkMode&&"#333"}} type="text" placeholder="Subject" name="user_subject"/>
                         <input style={{background:darkMode&&"#333"}} type="text" placeholder="Email" name="user_email"/>
                         <textarea style={{background:darkMode&&"#333"}} rows="5" placeholder="Message" name="message"/>
-                        <button>Submit</button>
+                        <button className="c-button">Submit</button>
                         {done && " Thank you for contact"}
                     </form>
                 </div>

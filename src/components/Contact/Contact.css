@@ -72,13 +72,14 @@ textarea {
   padding-left: 10px;
 }
 
-button {
+.c-button {
   border: none;
   padding: 15px;
   background-color: #59b256;
   color: white;
   font-weight: 500;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 480px) {
@@ -113,7 +114,7 @@ button {
     margin-left: 0;
   }
 
-  button {
+  .c-button {
     margin-top: 10px;
   }
 }

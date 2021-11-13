@@ -18,9 +18,9 @@ const Intro = () => {
                             <div className="i-title-item">Sinner</div>
                         </div>
                     </div>
-                    <p className="description">
+                    <p className="i-desc">
                       Yakshimash!!? I am from KAzakhstan. I like women... NIIIICE.
-                      <p className="description">
+                      <p className=".i-desc">
                       Why are we still here? Just to suffer?
                      Every night, I can feel my leg... And my arm... even my fingers... 
                      The body I've lost... the comrades I've lost... won't stop hurting... 

@@ -2,10 +2,15 @@
     position: absolute;
 }
 
-.m button {
+.m-button {
+    width: 60px;
     height: 25px;
     margin: 10px;
     border: none;
     border-radius: 10px;
     font-weight: 500;
+    background: #59b256;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
 }
