@@ -2,7 +2,8 @@
     position: absolute;
 }
 
-button {
+.m button {
+    height: 25px;
     margin: 10px;
     border: none;
     border-radius: 10px;

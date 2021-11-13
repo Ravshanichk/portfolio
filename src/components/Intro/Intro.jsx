@@ -1,21 +1,21 @@
 import React from "react"
 import shit from '../../img/1234.png'
-import i from './Intro.module.css'
+import './Intro.css'
 
 const Intro = () => {
     return (
-        <div className={i.i}>
-             <div className={i.left}>
-                <div className={i.leftWrapper}>
-                    <h2 className={i.intro}>Hello, My name is</h2>
-                    <h1 className={i.name}>Kras Mazow</h1>
-                    <div className={i.title}>
-                        <div className={i.titleWrapper}>
-                            <div className={i.titleItem}>Web Developer</div>
-                            <div className={i.titleItem}>Android Developer</div>
-                            <div className={i.titleItem}>Liar</div>
-                            <div className={i.titleItem}>Another human beeing</div>
-                            <div className={i.titleItem}>Sinner</div>
+        <div className="i">
+             <div className="i-left">
+                <div className="i-left-wrapper">
+                    <h2 className="i-intro">Hello, My name is</h2>
+                    <h1 className="i-name">Kras Mazow</h1>
+                    <div className="i-title">
+                        <div className="i-title-wrapper">
+                            <div className="i-title-item">Web Developer</div>
+                            <div className="i-title-item">Android Developer</div>
+                            <div className="i-title-item">Liar</div>
+                            <div className="i-title-item">Another human beeing</div>
+                            <div className="i-title-item">Sinner</div>
                         </div>
                     </div>
                     <p className="description">
@@ -31,7 +31,7 @@ const Intro = () => {
                     </p>
                 </div>
                 <svg
-                className={i.scroll}
+                className="i-scroll"
           width="75"
           height="75"
           viewBox="0 0 75 75"
@@ -87,9 +87,9 @@ const Intro = () => {
           </g>
         </svg>
             </div>
-            <div className={i.right}>
-                <div className={i.bg}></div>
-                <img src={shit} alt='portrait'></img>
+            <div className="i-right">
+                <div className="i-bg"></div>
+                <img className="i-img" src={shit} alt='portrait'></img>
             </div>
         </div>
     )
